@@ -1,0 +1,7 @@
+---
+# tasks file for samba
+- name: Install samba
+  apt:
+    name: samba
+    state: present
+    update_cache: yes

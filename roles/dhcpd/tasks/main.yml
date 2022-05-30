@@ -1,0 +1,7 @@
+---
+# tasks file for dhcpd
+- name: Install dhcpd
+  apt:
+    name: dhcpd
+    state: present
+    update_cache: yes
