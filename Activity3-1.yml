@@ -1,0 +1,10 @@
+---
+- hosts: 127.0.0.1
+  become: yes
+  roles:
+       - dhcpd
+       - bind9
+       - vsftpd
+       - samba
+       - httpd
+       - mariadb
